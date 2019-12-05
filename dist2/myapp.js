@@ -108,6 +108,10 @@ function initPlayer() {
 
 		console.log('tracks: ', this.variants_)
 		const selectedTrack = evaluator.evaluate(tracks)
+		/* BUFFEEEEEEEEEEEEEEERRR */
+		console.warn(video.buffered);
+		if(video.buffered.length > 0)
+			console.warn('Buffer range', video.buffered.start(0), video.buffered.end(0));
 
 
 		evaluator.currentTrack = selectedTrack
