@@ -1,12 +1,13 @@
 # sdk
 ## Bora.
 ## Tutorial
-* Importante que frontend e e sdk deve estar no mesmo nível.
-* Clonar o repositório do jeliel
-* No frontend, no myapp.js coloca:
+* Importante que frontend e esdk deve estar no mesmo nível.
+* Clonar o repossitório do jeliel em que ele colocou tudo.
+* No frontend, no index.html coloca:
 > <script>src = "[novo_nome]"<\script>.
 
 * No package.json, em compile 2 coloca o [novo-nome].
+* suas alterações devem estar em dist2/myapp.js
 * Mudar email e password em myapp.js de acordo com as regras do Cesar.
 * Executar na pasta sdk:
 > npm install
