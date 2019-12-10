@@ -21,3 +21,4 @@
 * Já está com a banda atual, aí preciso pesquisar para pôr o bufer e outras.
 * Nos eventos de log, verificar se o Logger tá setado, como o primeiro.
 * Quando tiver pronto, altera a url no enviroment.js para poder falar com a API direito.
+* Podem ignorar os erros que irão aparecer com os comandos: npm install, npm run compile1, npm run compile2, mesmo com os erros, o arquivo novoscript.js será gerado normalmente! :)
